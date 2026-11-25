@@ -1,0 +1,26 @@
+# PyInstaller Windows version resource for NeoTerm.exe (File > Properties > Details)
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'FileDescription', u'NeoTerm - pixel-art serial terminal'),
+         StringStruct(u'FileVersion', u'1.0.0.0'),
+         StringStruct(u'InternalName', u'NeoTerm'),
+         StringStruct(u'OriginalFilename', u'NeoTerm.exe'),
+         StringStruct(u'ProductName', u'NeoTerm'),
+         StringStruct(u'ProductVersion', u'1.0')])
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)
